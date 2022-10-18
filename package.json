@@ -1,0 +1,19 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MaycowDouglas/docker-wordpress.git",
+  "author": "Maycow Marques <melo.maycow@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
